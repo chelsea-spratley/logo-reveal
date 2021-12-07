@@ -1,0 +1,33 @@
+/* =============
+    Base
+============= */
+.gs-dev-tools {
+
+    z-index: 1500;
+
+}
+
+.hide{
+    // visibility: hidden;
+    display: none;
+}
+
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+
+a{
+    text-decoration: none;
+}
