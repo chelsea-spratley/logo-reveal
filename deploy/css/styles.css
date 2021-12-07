@@ -439,31 +439,7 @@ nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav 
   color: #A97DA2;
 }
 
-#preloader {
-  position: fixed;
-  height: 100vh;
-  width: 100%;
-  z-index: 1000;
-  background-color: #061928;
-}
-#preloader > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  position: relative;
-}
-#preloader > div section {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#preloader > div section h1 {
-  font-weight: 300;
-  margin-top: 20%;
-  color: #fff;
-  font-size: 2.5rem;
+#logo {
+  display: grid;
+  padding-left: 125px;
 }
